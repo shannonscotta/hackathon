@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    align-items: flex-end;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.gridsquare {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 1em;
+    opacity: 0%;
+}
+
+.red {
+    background-color: red;
+    border-radius: 0px;
+    width: 75px;
+    height: 75px;
+    opacity: 100%;
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 0px;
+    width: 75px;
+    height: 75px;
+    opacity: 100%;
+}
+
+.orange {
+    background-color: orange;
+    border-radius: 0px;
+    width: 75px;
+    height: 75px;
+    opacity: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 0px;
+    width: 75px;
+    height: 75px;
+    opacity: 100%;
+}
